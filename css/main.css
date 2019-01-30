@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+.hidden{
+  display: none;
+}
+#sitecontainer
+{
+  width: 980px;
+  margin: 0 auto;
+  
+}
+
+h1{
+  font-family: 'Shrikhand', cursive;
+  text-align: center;
+  text-shadow: 3px 5px grey;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#mainheader
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #fff;
+}
+#logo{
+    display: flex;
+  }
+#mainNav{
+  margin-top: 100px;
+  height: 60px;
+  width: 650px;
+  margin-left: 90px;
+  background: rgb(157,213,58); /* Old browsers */
+  background: -moz-linear-gradient(top, rgb(157,213,58) 0%, rgb(161,213,79) 50%, rgb(128,194,23) 77%, rgb(124,188,10) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgb(157,213,58) 0%,rgb(161,213,79) 50%,rgb(128,194,23) 77%,rgb(124,188,10) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgb(157,213,58) 0%,rgb(161,213,79) 50%,rgb(128,194,23) 77%,rgb(124,188,10) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 );
+}
+#mainNav ul
+{
+  display: flex;
+  flex-direction: row;
+}
+#mainNav ul li a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 15px;
+  margin-top: 10px;
+  padding: 10px;
+    transition: all .5s ease;
+}
+#mainNav ul li a:hover
+{
+  background-color: #73B2E2;
+  color: #333;
+  border-radius: 10px;
+}
+#mainText{
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.promoText
+{
+  font-size: 18px;
+  font-family: 'Alice', serif; 
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+#Image1
+{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#Image1 p
+{
+  font-family: 'Alice', serif;
+  font-size: 18px;
+  text-align: left;
+  font-weight: 50%;
+  line-height: normal;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.promo1
+{
+  font-size: 18px;
+  font-family: 'Alice', serif;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+
+#Image2
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+#Image2 p
+{
+  font-size: 18px;
+  font-family: 'Alice', serif;
+  margin-right: 20px;
+}
+
+
+#mainFooter
+{
+  background: rgb(157,213,58); 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+
+}
+
+#volunteer
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+#volunteer ul 
+{
+  margin-right: 40px;
+  line-height: 20px;
+
+}
+
+
+#volunteer ul h
+{
+  font-weight: bold;
+  text-align: center;
+  font-size: 19px;
+}
+#volunteer ul li
+{
+  text-align: center;
+}
+
+#socialMedia
+{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 0;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+#socialMedia img
+{
+  margin-left: 20px;
+  /*margin-right: 40px;*/
+
+}
